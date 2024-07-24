@@ -61,7 +61,7 @@ export default {
             color: 'red-5',
             textColor: 'white',
             icon: 'warning',
-            message: 'You need to accept the license and terms first'
+            message: 'You need to accept the license and terms firsT'
           })
         }
         else {
