@@ -9,8 +9,8 @@
       <q-input
         filled
         v-model="name"
-        label="ชื่อ-สกุล"
-        hint="ชื่อนามนามสกุล"
+        label="Your name *"
+        hint="Name and surname"
         lazy-rules
         :rules="[ val => val && val.length > 0 || 'Please type something']"
       />
@@ -61,7 +61,7 @@ export default {
             color: 'red-5',
             textColor: 'white',
             icon: 'warning',
-            message: 'You need to accept the license and terms first'
+            message: 'You need to accept the license and terms firsT'
           })
         }
         else {
